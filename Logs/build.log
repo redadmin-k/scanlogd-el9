@@ -1,0 +1,123 @@
+Mock Version: 6.9
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'ecdd581a2f174bdb9e3c270fe1ecdd9d', '-D', '/var/lib/mock/alma+epel-9-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/scanlogd.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1791676800
+Wrote: /builddir/build/SRPMS/scanlogd-2.2.8-1.el9.src.rpm
+Child return code was: 0
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'aa6e7cffe4c24d36ad56b549d8258ee9', '-D', '/var/lib/mock/alma+epel-9-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --noclean --target x86_64 --nodeps /builddir/build/SPECS/scanlogd.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1791676800
+Wrote: /builddir/build/SRPMS/scanlogd-2.2.8-1.el9.src.rpm
+Child return code was: 0
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'b9ac9b7ed2954211ae093c82cd3c5c6e', '-D', '/var/lib/mock/alma+epel-9-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--resolv-conf=off', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bb --noclean --target x86_64 --nodeps /builddir/build/SPECS/scanlogd.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1791676800
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.9ewOPi
++ umask 022
++ cd /builddir/build/BUILD
++ cd /builddir/build/BUILD
++ rm -rf scanlogd-2.2.8
++ /usr/bin/gzip -dc /builddir/build/SOURCES/scanlogd-2.2.8.tar.gz
++ /usr/bin/tar -xof -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd scanlogd-2.2.8
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ sed -i 's|"/var/empty"|"/var/lib/scanlogd/empty"|' params.h
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.eaS1Yi
++ umask 022
++ cd /builddir/build/BUILD
++ cd scanlogd-2.2.8
++ /usr/bin/make -O -j4 V=1 VERBOSE=1 linux 'CFLAGS=-Wall -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' 'LDFLAGS=-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 '
+gcc -Wall -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -c in_linux.c
+gcc -Wall -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -c scanlogd.c
+scanlogd.c: In function 'main':
+scanlogd.c:406:9: warning: ignoring return value of 'chdir' declared with attribute 'warn_unused_result' [-Wunused-result]
+  406 |         chdir("/");
+      |         ^~~~~~~~~~
+gcc -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  scanlogd.o in_linux.o -o scanlogd
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.OoYPfU
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64
+++ dirname /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64
++ cd scanlogd-2.2.8
++ install -Dpm 0755 scanlogd /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/sbin/scanlogd
++ install -Dpm 0644 scanlogd.8 /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/man/man8/scanlogd.8
++ install -Dpm 0644 /builddir/build/SOURCES/scanlogd.service /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/lib/systemd/system/scanlogd.service
++ install -d -m 0755 /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/var/lib/scanlogd/empty
++ /usr/bin/find-debuginfo -j4 --strict-build-id -m -i --build-id-seed 2.2.8-1.el9 --unique-debug-suffix -2.2.8-1.el9.x86_64 --unique-debug-src-base scanlogd-2.2.8-1.el9.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 --remove-section .gnu.build.attributes -S debugsourcefiles.list /builddir/build/BUILD/scanlogd-2.2.8
+extracting debug info from /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/sbin/scanlogd
+original debug info size: 48kB, size after compression: 48kB
+/usr/bin/sepdebugcrcfix: Updated 1 CRC32s, 0 CRC32s did match.
+27 blocks
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
++ /usr/lib/rpm/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
+Processing files: scanlogd-2.2.8-1.el9.x86_64
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.XCHCWl
++ umask 022
++ cd /builddir/build/BUILD
++ cd scanlogd-2.2.8
++ DOCDIR=/builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/doc/scanlogd
++ export LC_ALL=C
++ LC_ALL=C
++ export DOCDIR
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/doc/scanlogd
++ cp -pr README.md /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/doc/scanlogd
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.DQ1V99
++ umask 022
++ cd /builddir/build/BUILD
++ cd scanlogd-2.2.8
++ LICENSEDIR=/builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/licenses/scanlogd
++ export LC_ALL=C
++ LC_ALL=C
++ export LICENSEDIR
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/licenses/scanlogd
++ cp -pr LICENSE /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64/usr/share/licenses/scanlogd
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Provides: scanlogd = 2.2.8-1.el9 scanlogd(x86-64) = 2.2.8-1.el9
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh shadow-utils
+Requires(post): /bin/sh systemd
+Requires(preun): /bin/sh systemd
+Requires(postun): /bin/sh systemd
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.3)(64bit) libc.so.6(GLIBC_2.3.4)(64bit) libc.so.6(GLIBC_2.34)(64bit) libc.so.6(GLIBC_2.4)(64bit) rtld(GNU_HASH)
+Processing files: scanlogd-debugsource-2.2.8-1.el9.x86_64
+Provides: scanlogd-debugsource = 2.2.8-1.el9 scanlogd-debugsource(x86-64) = 2.2.8-1.el9
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: scanlogd-debuginfo-2.2.8-1.el9.x86_64
+Provides: debuginfo(build-id) = 7bd227fdf6f2123ec717eb06aacdcb40378ffc6c scanlogd-debuginfo = 2.2.8-1.el9 scanlogd-debuginfo(x86-64) = 2.2.8-1.el9
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: scanlogd-debugsource(x86-64) = 2.2.8-1.el9
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/scanlogd-2.2.8-1.el9.x86_64
+Wrote: /builddir/build/RPMS/scanlogd-debugsource-2.2.8-1.el9.x86_64.rpm
+Wrote: /builddir/build/RPMS/scanlogd-2.2.8-1.el9.x86_64.rpm
+Wrote: /builddir/build/RPMS/scanlogd-debuginfo-2.2.8-1.el9.x86_64.rpm
+Child return code was: 0
